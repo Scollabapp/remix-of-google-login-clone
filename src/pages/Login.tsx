@@ -7,9 +7,9 @@ const Login = () => {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-muted/50 p-4 lg:p-8">
+    <div className="flex min-h-screen items-center justify-center bg-muted/50 px-8 py-8 lg:px-12">
       {/* Main Rounded Container */}
-      <div className="w-full max-w-5xl bg-foreground rounded-3xl shadow-2xl overflow-hidden">
+      <div className="w-full max-w-[1240px] bg-foreground rounded-3xl shadow-[0_8px_40px_-12px_rgba(0,0,0,0.15)] overflow-hidden">
         <div className="flex min-h-[600px]">
           {/* Left Side - Login Form (Dark) */}
           <div className="flex w-full lg:w-1/2 flex-col justify-between p-8 lg:p-12">
@@ -85,8 +85,7 @@ const Login = () => {
 
           {/* Right Side - Illustration (hidden on mobile like original) */}
           <div 
-            className="hidden lg:flex w-1/2 items-center justify-center p-8 rounded-3xl m-2"
-            style={{ backgroundColor: '#E8F5F0' }}
+            className="hidden lg:flex w-1/2 items-center justify-center p-8 rounded-3xl m-2 bg-white"
           >
             <img
               src={loginIllustration}
